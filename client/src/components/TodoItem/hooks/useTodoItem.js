@@ -68,5 +68,4 @@ export const useTodoItem = (setTodoList, newTitle, setUpdateTitle) => {
         updateTodoItemTitle,
         deleteTodoItem
     }
-
 }

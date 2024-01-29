@@ -24,5 +24,4 @@ export const useTodoItemInput = (todoList, setTodoList, title, setTitle) => {
       }
 
       return { addTodoItem };
-
 }

@@ -3,7 +3,6 @@ import { showDate } from "../../utils";
 import { useTodoItem } from "./hooks/useTodoItem";
 import "./todoItem.css";
 
-
 const TodoItem = (props) => {
     const { item, setTodoList, number } = props;
     const [updateTitle, setUpdateTitle] = useState(false);
