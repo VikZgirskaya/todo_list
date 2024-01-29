@@ -1,0 +1,49 @@
+.todoList{
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+    width: 900px;
+}
+
+.todoListColumns{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid orange;
+    margin-bottom: 20px;
+}
+
+
+.todoListColumnOrder{
+    color: orange;
+    width: 100px;
+}
+
+.todoListColumnTitle{
+    width: 400px;
+}
+
+.todoListColumnTitle:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.todoListColumnDate{
+    width: 200px;
+}
+
+.todoListColumnDate:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.todoListColumnAction{
+    color: orange;
+    width: 100px;
+}
+
+.todoListElements{
+    display: flex;
+    flex-direction: column;
+}

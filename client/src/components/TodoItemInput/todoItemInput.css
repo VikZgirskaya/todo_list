@@ -1,0 +1,30 @@
+.addTodoItemForm {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.addTodoItemInput {
+    width: 350px;
+    font-size: large;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.addTodoItemBtn{
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    font-size: large;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+}
+
+.addTodoItemBtn:hover{
+    border: 2px solid orange;
+    cursor: pointer;
+}

@@ -1,0 +1,66 @@
+.todoItem{
+    display: flex;
+    flex-direction: row;
+}
+
+.todoItemNumber{
+    width: 100px;
+    text-align: center;
+}
+
+.todoItemTitle{
+    width: 400px;
+}
+
+.todoItemTitle:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.todoItemDate{
+    width: 200px;
+    color: grey;
+}
+
+.todoItemStatusBtn{
+    text-decoration: none;
+    background-color: white;
+    border: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+
+.todoItemStatusBtn:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.todoActionBtns{
+    display: flex;
+    flex-direction: row;
+}
+
+.editTodoItemInput{
+    width: 350px;
+    font-size: medium;
+    border: 1px solid orange;
+    margin-right: 44px;
+}
+
+.todoItemDeleteBtn{
+    text-decoration: none;
+    background-color: white;
+    border: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    color: orange;
+}
+
+.todoItemDeleteBtn:hover{
+    color:red;
+    cursor: pointer;
+}
